@@ -1,0 +1,5 @@
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; gap: 1.25rem; height: 100%; }
+.card blockquote { font-family: var(--font-title); font-style: italic; font-size: 1.1rem; color: var(--night); }
+.card figcaption { display: flex; align-items: center; gap: .75rem; font-size: .9rem; color: var(--muted); }
+.card strong { color: var(--ink); }
+.avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--night); color: var(--gold); display: grid; place-items: center; font-weight: 600; flex: none; }

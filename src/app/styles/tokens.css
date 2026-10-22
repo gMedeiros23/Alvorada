@@ -1,0 +1,17 @@
+:root {
+  --night: #14213d;
+  --night-2: #223660;
+  --gold: #e8a93b;
+  --gold-deep: #9a6410;
+  --cream: #fbf6ea;
+  --paper: #fffdf7;
+  --ink: #1b2236;
+  --muted: #566075;
+  --line: #e6dcc3;
+  --radius: 10px;
+  --font-title: 'Lora', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+body { background: var(--cream); color: var(--ink); font-family: var(--font-body); line-height: 1.6; }
+h1, h2, h3 { font-family: var(--font-title); font-weight: 600; line-height: 1.2; color: var(--night); }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }

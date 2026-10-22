@@ -1,0 +1,6 @@
+.title { font-size: 2rem; margin-bottom: 2.5rem; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 2rem; }
+.steps li { display: grid; gap: .5rem; align-content: start; }
+.steps h3 { font-size: 1.15rem; }
+.steps p { color: #b9c3dc; }
+.num { width: 40px; height: 40px; border-radius: 50%; background: var(--gold); color: var(--night); display: grid; place-items: center; font-weight: 600; }

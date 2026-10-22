@@ -1,0 +1,5 @@
+.overlay { position: fixed; inset: 0; background: rgba(20,33,61,.65); display: grid; place-items: center; padding: 1rem; z-index: 50; }
+.box { background: var(--paper); color: var(--ink); border-radius: 16px; padding: 2rem; max-width: 420px; width: 100%; animation: pop .2s ease-out; }
+.box h3 { font-size: 1.5rem; margin-bottom: .75rem; }
+.body { display: grid; gap: 1.25rem; justify-items: start; }
+@keyframes pop { from { transform: scale(.96); opacity: 0; } }

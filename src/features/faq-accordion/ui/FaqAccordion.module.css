@@ -1,0 +1,7 @@
+.list { border-top: 1px solid var(--line); }
+.item { border-bottom: 1px solid var(--line); }
+.item h3 { font-size: 1.1rem; }
+.item button { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 1rem; background: none; border: 0; padding: 1.1rem 0; cursor: pointer; text-align: left; font-family: var(--font-title); font-weight: 600; font-size: 1.1rem; color: var(--night); }
+.item span { font-size: 1.5rem; color: var(--gold-deep); transition: transform .2s; }
+.item span.open { transform: rotate(45deg); }
+.item p { padding: 0 0 1.25rem; color: var(--muted); max-width: 62ch; }

@@ -1,0 +1,2 @@
+.footer { background: var(--night); color: #b9c3dc; padding: 2.5rem 1.25rem; text-align: center; display: grid; gap: .5rem; font-size: .9rem; }
+.logo { font-family: var(--font-title); font-size: 1.3rem; color: var(--gold); }

@@ -1,0 +1,16 @@
+.hero { position: relative; overflow: hidden; background: linear-gradient(180deg, var(--night) 0%, var(--night-2) 100%); color: #e9edf7; padding: 5rem 1.25rem 6rem; }
+.sun { position: absolute; width: 520px; height: 520px; border-radius: 50%; right: -120px; bottom: -300px; background: radial-gradient(circle, var(--gold) 0%, rgba(232,169,59,.35) 45%, transparent 70%); }
+.inner { position: relative; max-width: 1040px; margin: 0 auto; display: grid; grid-template-columns: 1.2fr 1fr; gap: 3rem; align-items: center; }
+.copy { display: grid; gap: 1.25rem; justify-items: start; }
+.copy h1 { color: #fff; font-size: clamp(2rem, 5vw, 3.2rem); }
+.copy > p { font-size: 1.1rem; max-width: 52ch; color: #cfd7ea; }
+.form { scroll-margin-top: 90px; width: 100%; }
+.phone { background: var(--paper); color: var(--ink); border-radius: 28px; padding: 1.5rem; display: grid; gap: .9rem; box-shadow: 0 24px 60px rgba(0,0,0,.35); transform: rotate(2deg); }
+.small { font-size: .85rem; color: var(--muted); }
+.phone h2 { font-size: 1.35rem; }
+.week { display: flex; gap: .4rem; }
+.week span { width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; font-size: .8rem; font-weight: 600; border: 1.5px solid var(--line); color: var(--muted); }
+.week .on { background: var(--night); border-color: var(--night); color: var(--gold); }
+.note { background: var(--cream); border-radius: 12px; padding: .7rem .9rem; font-size: .9rem; }
+.progress { font-size: .85rem; color: var(--gold-deep); font-weight: 600; }
+@media (max-width: 860px) { .inner { grid-template-columns: 1fr; } .phone { transform: none; } }

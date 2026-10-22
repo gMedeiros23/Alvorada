@@ -1,0 +1,11 @@
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.75rem; display: flex; flex-direction: column; gap: .75rem; }
+.featured { background: var(--night); color: #e9edf7; border-color: var(--night); }
+.featured h3 { color: #fff; }
+.badge { align-self: flex-start; background: var(--gold); color: var(--night); font-size: .8rem; font-weight: 600; padding: .15rem .7rem; border-radius: 999px; }
+.desc { color: var(--muted); font-size: .95rem; }
+.featured .desc { color: #b9c3dc; }
+.price { font-family: var(--font-title); font-size: 2.2rem; font-weight: 600; }
+.price small { font-size: 1rem; font-weight: 400; margin-left: .2rem; }
+.card ul { display: grid; gap: .4rem; flex: 1; margin-bottom: .75rem; }
+.card li::before { content: '✓'; color: var(--gold-deep); margin-right: .5rem; font-weight: 600; }
+.featured li::before { color: var(--gold); }
