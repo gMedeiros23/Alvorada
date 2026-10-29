@@ -1,6 +1,6 @@
 # Alvorada
 
-##Integrantes
+## Integrantes
 
 - Gabriel Medeiros Nascimento
 - Pedro Henrique Papuci de Carlos
